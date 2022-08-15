@@ -1,0 +1,16 @@
+h1 {
+    color: whitesmoke; 
+    background-image: url(https://play-lh.googleusercontent.com/ibmdU4qKfqdtzecOvJDnaEwNez8p4k2yqqpeyPfEh3OMhSFpEPDZg9ISoPQAeOte4Fw=w240-h480-rw);
+    background-position: center;
+    background-size:auto;
+}
+h2 {
+    color: black;
+    background-color: rgba(255, 140, 0, 0.906);
+}
+
+#video {
+    background-color: black;
+    width: 49%;
+    float: left;
+}
