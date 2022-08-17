@@ -1,0 +1,274 @@
+LAB EXERCISES/APIs
+Part 1: SWAPI
+ 
+The height of Darth Vader
+http https://swapi.dev/api/people/4
+
+
+{
+    "birth_year": "41.9BBY",
+    "created": "2014-12-10T15:18:20.704000Z",
+    "edited": "2014-12-20T21:17:50.313000Z",
+    "eye_color": "yellow",
+    "films": [
+        "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/",
+        "https://swapi.dev/api/films/6/"
+    ],
+    "gender": "male",
+    "hair_color": "none",
+    "height": "202",
+    "homeworld": "https://swapi.dev/api/planets/1/",
+    "mass": "136",
+    "name": "Darth Vader",
+    "skin_color": "white",
+    "species": [],
+    "starships": [
+        "https://swapi.dev/api/starships/13/"
+    ],
+    "url": "https://swapi.dev/api/people/4/",
+    "vehicles": []
+}
+
+
+ALDEERAN population
+
+
+http https://swapi.dev/api/planets
+
+
+    {
+            "climate": "temperate",
+            "created": "2014-12-10T11:35:48.479000Z",
+            "diameter": "12500",
+            "edited": "2014-12-20T20:58:18.420000Z",
+            "films": [
+                "https://swapi.dev/api/films/1/",
+                "https://swapi.dev/api/films/6/"
+            ],
+            "gravity": "1 standard",
+            "name": "Alderaan",
+            "orbital_period": "364",
+            "population": "2000000000",
+            "residents": [
+                "https://swapi.dev/api/people/5/",
+                "https://swapi.dev/api/people/68/",
+                "https://swapi.dev/api/people/81/"
+            ],
+            "rotation_period": "24",
+            "surface_water": "40",
+            "terrain": "grasslands, mountains",
+            "url": "https://swapi.dev/api/planets/2/"
+        }
+
+
+Manufacturer name
+http  https://swapi.dev/api/starships
+
+
+ {
+            "MGLT": "75",
+            "cargo_capacity": "100000",
+            "consumables": "2 months",
+            "cost_in_credits": "100000",
+            "created": "2014-12-10T16:59:45.094000Z",
+            "crew": "4",
+            "edited": "2014-12-20T21:23:49.880000Z",
+            "films": [
+                "https://swapi.dev/api/films/1/",
+                "https://swapi.dev/api/films/2/",
+                "https://swapi.dev/api/films/3/"
+            ],
+            "hyperdrive_rating": "0.5",
+            "length": "34.37",
+            "manufacturer": "Corellian Engineering Corporation",
+            "max_atmosphering_speed": "1050",
+            "model": "YT-1300 light freighter",
+            "name": "Millennium Falcon",
+            "passengers": "6",
+            "pilots": [
+                "https://swapi.dev/api/people/13/",
+                "https://swapi.dev/api/people/14/",
+                "https://swapi.dev/api/people/25/",
+                "https://swapi.dev/api/people/31/"
+            ],
+            "starship_class": "Light freighter",
+            "url": "https://swapi.dev/api/starships/10/"
+        },
+
+
+
+
+The name of the species that C-3PO belongs to (multiple URLs)
+http https://swapi.dev/api/species/2/
+
+
+{
+    "average_height": "n/a",
+    "average_lifespan": "indefinite",
+    "classification": "artificial",
+    "created": "2014-12-10T15:16:16.259000Z",
+    "designation": "sentient",
+    "edited": "2014-12-20T21:36:42.139000Z",
+    "eye_colors": "n/a",
+    "films": [
+        "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/",
+        "https://swapi.dev/api/films/4/",
+        "https://swapi.dev/api/films/5/",
+        "https://swapi.dev/api/films/6/"
+    ],
+    "hair_colors": "n/a",
+    "homeworld": null,
+    "language": "n/a",
+    "name": "Droid",
+    "people": [
+        "https://swapi.dev/api/people/2/",
+        "https://swapi.dev/api/people/3/",
+        "https://swapi.dev/api/people/8/",
+        "https://swapi.dev/api/people/23/"
+    ],
+    "skin_colors": "n/a",
+    "url": "https://swapi.dev/api/species/2/"
+}
+           
+
+
+Title of each film "name": "Obi-Wan Kenobi",
+http https://swapi.dev/api/people/10/
+
+
+{
+    "birth_year": "57BBY",
+    "created": "2014-12-10T16:16:29.192000Z",
+    "edited": "2014-12-20T21:17:50.325000Z",
+    "eye_color": "blue-gray",
+    "films": [
+        "https://swapi.dev/api/films/1/", "title": "A New Hope",
+        "https://swapi.dev/api/films/2/", "title": "The Empire Strikes Back",
+        "https://swapi.dev/api/films/3/", "title": "Return of the Jedi",
+        "https://swapi.dev/api/films/4/",  "title": "The Phantom Menace",
+        "https://swapi.dev/api/films/5/", “title”: “Attack of the Clones",
+        "https://swapi.dev/api/films/6/"  "title": "Revenge of the Sith"
+    ],
+    "gender": "male",
+    "hair_color": "auburn, white",
+    "height": "182",
+    "homeworld": "https://swapi.dev/api/planets/20/",
+    "mass": "77",
+    "name": "Obi-Wan Kenobi",
+    "skin_color": "fair",
+    "species": [],
+    "starships": [
+        "https://swapi.dev/api/starships/48/", 
+        "https://swapi.dev/api/starships/59/",  
+        "https://swapi.dev/api/starships/64/",  
+        "https://swapi.dev/api/starships/65/",
+        "https://swapi.dev/api/starships/74/"
+    ],
+    "url": "https://swapi.dev/api/people/10/",
+    "vehicles": [
+        "https://swapi.dev/api/vehicles/38/"
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+Use the search query to get information about the Millennium Falcon, it’s a starship.
+
+
+https://swapi.dev/api/planets/?search=alderaan
+http https://swapi.dev/api/starships/10/
+
+
+ {
+    "MGLT": "75",
+    "cargo_capacity": "100000",
+    "consumables": "2 months",
+    "cost_in_credits": "100000",
+    "created": "2014-12-10T16:59:45.094000Z",
+    "crew": "4",
+    "edited": "2014-12-20T21:23:49.880000Z",
+    "films": [
+        "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/"
+    ],
+    "hyperdrive_rating": "0.5",
+    "length": "34.37",
+    "manufacturer": "Corellian Engineering Corporation",
+    "max_atmosphering_speed": "1050",
+    "model": "YT-1300 light freighter",
+    "name": "Millennium Falcon",
+    "passengers": "6",
+    "pilots": [
+        "https://swapi.dev/api/people/13/",
+        "https://swapi.dev/api/people/14/",
+        "https://swapi.dev/api/people/25/",
+        "https://swapi.dev/api/people/31/"
+    ],
+    "starship_class": "Light freighter",
+    "url": "https://swapi.dev/api/starships/10/"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+________________
+Part 2: Social Mountain
+
+
+1. Check if the POST request accepts params, queries, and/or a body. Which one(s) and what information is it expecting to be sent?
+The POST request accepts body(“text”) the information expected is to write a text in the body.
+
+
+2. What data type does the GET request return?
+It returns an array of all posts.
+
+
+3. What would the URL look like for deleting the post with the id 555? (This post does not exist anymore, but the syntax is the same for existing posts)
+It will give an error.
+
+
+4. List the possible response codes from the GET request at /posts/filter.
+409 Conflict. The request query is missing the required text property.
+
+
+5. Create a post whose text is your name, record the URL and body here:
+https://practiceapi.devmountain.com/api/posts
+
+
+6. What would the URL and body object be to update the post you just made to contain your favorite color instead of your name?
+https://practiceapi.devmountain.com/api/posts/?id=1066
+
+
+7.  What is the URL to get posts that contain the text “blue”?
+https://practiceapi.devmountain.com/api/posts
+
+
+8. Make a request to GET all the posts. What are the content type and charset of the response? (Hint: look on the Headers)
+The response content type is application/JSON and the charset is an array of all posts. application/JSON; charset=utf-8
+9. What would cause a PUT request to return a 409 status?
+Request was missing req.query.id or req.body.text
+
+
+10. What happens if you try to send a query in the GET request URL? Why do you get that response?
+Nothing happens. It looks like it doesn’t influence the body.
+Part 3: Front End (Advanced)
