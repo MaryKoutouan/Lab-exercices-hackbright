@@ -150,7 +150,7 @@ http https://swapi.dev/api/people/10/
         "https://swapi.dev/api/films/2/", "title": "The Empire Strikes Back",
         "https://swapi.dev/api/films/3/", "title": "Return of the Jedi",
         "https://swapi.dev/api/films/4/",  "title": "The Phantom Menace",
-        "https://swapi.dev/api/films/5/", “title”: “Attack of the Clones",
+        "https://swapi.dev/api/films/5/", ï¿½titleï¿½: ï¿½Attack of the Clones",
         "https://swapi.dev/api/films/6/"  "title": "Revenge of the Sith"
     ],
     "gender": "male",
@@ -183,7 +183,7 @@ http https://swapi.dev/api/people/10/
 
 
 
-Use the search query to get information about the Millennium Falcon, it’s a starship.
+Use the search query to get information about the Millennium Falcon, itï¿½s a starship.
 
 
 https://swapi.dev/api/planets/?search=alderaan
@@ -236,7 +236,7 @@ Part 2: Social Mountain
 
 
 1. Check if the POST request accepts params, queries, and/or a body. Which one(s) and what information is it expecting to be sent?
-The POST request accepts body(“text”) the information expected is to write a text in the body.
+The POST request accepts body(ï¿½textï¿½) the information expected is to write a text in the body.
 
 
 2. What data type does the GET request return?
@@ -259,7 +259,7 @@ https://practiceapi.devmountain.com/api/posts
 https://practiceapi.devmountain.com/api/posts/?id=1066
 
 
-7.  What is the URL to get posts that contain the text “blue”?
+7.  What is the URL to get posts that contain the text ï¿½blueï¿½?
 https://practiceapi.devmountain.com/api/posts
 
 
@@ -270,5 +270,5 @@ Request was missing req.query.id or req.body.text
 
 
 10. What happens if you try to send a query in the GET request URL? Why do you get that response?
-Nothing happens. It looks like it doesn’t influence the body.
-Part 3: Front End (Advanced)
+Nothing happens. It looks like it doesnï¿½t influence the body.
+Part 3: Front End (Advanced) 
